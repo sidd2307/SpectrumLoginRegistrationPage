@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spectrum</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
+  <link rel="icon" href="/img/Real Images/download-removebg-preview.png" type="image/icon type">
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="bower_components/aos/dist/aos.js"></script>
+  <link href='https://css.gg/pen.css' rel='stylesheet'>
+  <link href='https://css.gg/code-slash.css' rel='stylesheet'>
+  <link href='https://css.gg/smartphone-chip.css' rel='stylesheet'>
+  <link href='https://css.gg/facebook.css' rel='stylesheet'>
+  <link href='https://css.gg/instagram.css' rel='stylesheet'>
+  <script>
+    AOS.init();
+  </script>
+</head>
+
+<body>
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/Real Images/download-removebg-preview.png" alt=""
+          style="height: 50px; width: 50px;" srcset=""></a>
+      <h2 class="text-align-center">SPECTRUM</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#wings">Wings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutUs">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blogs">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary btn-lg" href="#contactUs"><%= name %></a>
+          </li>
+          <li class="nav-item">
+            <a href="/users/logout" class="btn btn-dark btn-lg">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+
+  <header class="page-header gradient">
+    <div class="container pt-3">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-5 mt-3">
+          <center>
+            <h2>Tech-Qurious Club of CET-B</h2>
+            <img src="img/Real Images/Header-IMG.jpg" style="width: 360px;" alt="" srcset="">
+            <h4 class="mt-3">Innovated 👁‍🗨 | Elevated 〽 | Accelerated 🔰</h4>
+            <!-- 
+            <button type="button" class="btn btn-outline-success btn-lg">Read More</button>
+            <button type="button" class="btn btn-outline-warning btn-lg">Play Video</button> -->
+          </center>
+        </div>
+        <div class="col-md-5 align-items-center"><img src="img/email_campaign_monochromatic.svg" alt="Header image"
+            srcset=""></div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,160L26.7,144C53.3,128,107,96,160,101.3C213.3,107,267,149,320,165.3C373.3,181,427,171,480,149.3C533.3,128,587,96,640,90.7C693.3,85,747,107,800,122.7C853.3,139,907,149,960,149.3C1013.3,149,1067,139,1120,154.7C1173.3,171,1227,213,1280,234.7C1333.3,256,1387,256,1413,256L1440,256L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
+      </path>
+    </svg>
+  </header>
+
+
+  <section class="icons" id="wings">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="icon gradient mb-4"><i class="gg-smartphone-chip"></i></div>
+          <h3>HARDWARE</h3>
+          <p>The HARDWARE team of the Club mainly focuses on VLSI, Embedded Systems and PCB Design. We have developed
+            many projects with implementation and testing of circuits, components, systems, etc.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="icon gradient mb-4"><i class="gg-pen"></i></div>
+          <h3>SOFTWARE</h3>
+          <p>The SOFTWARE team is continuously striving for growth in the domains of Web Development, App Development,
+            Competitive Programming, Machine Learning and Data Science. Working as a team, inspiring each other we
+            quickly develop viable solutions for a better outcome.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="icon gradient mb-4"><i class="gg-code-slash"></i></div>
+          <h3>DESIGN</h3>
+          <p>The DESIGN Wing of our Club has proven their creativity in UI/UX Poster Designing. We believe visual
+            communication is a major tool to enhance various creative projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="feature gradient" id="aboutUs">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,160L48,138.7C96,117,192,75,288,96C384,117,480,203,576,213.3C672,224,768,160,864,144C960,128,1056,160,1152,165.3C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="img/seo_monochromatic.svg" alt="" srcset="">
+        </div>
+        <div class="col-md-6">
+          <h1 class="my-3">Introducing Spectrum</h1>
+          <p class="my-4">
+            SPECTRUM ,Technical society of COLLEGE OF ENGINEERING AND TECHNOLOGY, BHUBANESWAR,a place for all technical
+            enthusiasts to learn, discover and innovate new things in the field of Technology and Design. The name of
+            the club " SPECTRUM ", a contribution of our alumni of 2015 batch, is particularly used to describe the
+            characteristic colors of visible light after passing through a prism, similarly students of CET consist of
+            different skills within them and Spectrum acts like a prism, Spectrum recognises their skills helps them to
+            strengthen it.
+          </p>
+          <h4>Achievements</h4>
+          <ul>
+            <li>Two groups qualified for Texas Instruments India Innovation Challenge</li>
+            <li>Smart Toilet for physically challenged has awarded fourth in National Level Competition in India
+              International Science Festival conducted by CSIR, NIOT and IIT Madras</li>
+            <li>One group qualified for Smart India Hackathon 2018</li>
+            <li>Three students awarded 3rd in a hackathon conducted by Sankalp Semiconductors</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,192L48,181.3C96,171,192,149,288,128C384,107,480,85,576,96C672,107,768,149,864,186.7C960,224,1056,256,1152,245.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <h1 class="text-center mb-4">Projects</h1>
+  <section class="companies" id="projects" style="padding-left: 120px">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="img/Real Images/Bhavana.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bhavana</h5>
+              <p class="card-text">This device helps physically imapired people to understand the emotions of the person
+                they are talking to</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="img/Real Images/Smart Toilet.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smart Toilet</h5>
+              <p class="card-text">A semi automated toilet that is designed for the elderly people and the patients.
+              </p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="img/Real Images/Suppy Bot.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Supply Bot</h5>
+              <p class="card-text">Robots help to deliver food and medicine aid in flood scenarios to the affected
+                people in remote areas.
+              </p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="gallery" id="events">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,224L48,202.7C96,181,192,139,288,133.3C384,128,480,160,576,197.3C672,235,768,277,864,277.3C960,277,1056,235,1152,229.3C1248,224,1344,256,1392,272L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <h1>Events</h1>
+          <p>There's no scarcity of opportunity to make a living at what you love. There is only a scarcity of resolve
+            to make it happen.</p>
+        </div>
+      </div>
+      <div class="row my-3 g-3">
+        <div class="col-md-4"><img src="img/Real Images/115650234_148852016823224_3436413914636035301_n.jpg" alt=""
+            srcset="" class="img-fluid"></div>
+        <div class="col-md-4"><img src="img/Real Images/117193520_1672345836254674_6985375446206339313_n.jpg" alt=""
+            srcset="" class="img-fluid"></div>
+        <div class="col-md-4"><img src="img/Real Images/135381522_218720186422126_1332095003091148059_n.jpg" alt=""
+            srcset="" class="img-fluid"></div>
+      </div>
+      <div class="row mt-5 justify-content-end">
+        <div class="col-md-2">
+          <button type="button" class="btn btn-outline-secondary">See All Events</button>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,320L48,304C96,288,192,256,288,218.7C384,181,480,139,576,144C672,149,768,203,864,197.3C960,192,1056,128,1152,117.3C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <section class="services gradient" id="blogs">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,224L48,202.7C96,181,192,139,288,133.3C384,128,480,160,576,197.3C672,235,768,277,864,277.3C960,277,1056,235,1152,229.3C1248,224,1344,256,1392,272L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-5">
+          <button type="button" class="btn btn-warning btn-lg">Read Article..</button>
+          <h1>Autocorrect using NLP</h1>
+          <p>In this era of Digitalization, almost every individual has a smartphone with them, may it be Android or
+            iOS. The benefits of smartphone would be a never-ending list and we ain't going to focus on that in this
+            blog ! The purpose of this post is to build an Autocorrect System from Scratch. This would be just an
+            implementation of Natural Language Processing...</p>
+        </div>
+        <div class="col-md-5"><img src="img/Real Images/Mention_Flatline.svg" alt="" srcset=""></div>
+        <div class="col-md-5"><img src="img/Real Images/Cocktail _Isometric.svg" alt="" srcset=""></div>
+        <div class="col-md-5">
+          <button type="button" class="btn btn-warning btn-lg">Read Article..</button>
+          <h1>Can we Drink Sea Water?</h1>
+          <p>We well know the fact that 70 per cent of the earth is covered with water. But only 2 to 3 per cent of it
+            is freshwater. And the rest is saline and ocean-based. The freshwater quantity is always constant and it
+            only recycled by nature (atmosphere ). Even the two-third of freshwater is not available in liquid
+            form — It’s in frozen form. Groundwater is the major source of drinking water, it provides 25 to 40 per cent
+            of earth’s drinking water.Due to surge of ...</p>
+        </div>
+        <div class="col-md-5">
+          <button type="button" class="btn btn-warning btn-lg">Read Article..</button>
+          <h1>Why do I love WebDev?</h1>
+          <p>Hello Everyone, This post is for all the beginners or the newbies, who decided to start their journey in
+            the IT world and still unaware or confused about various fields. In my point of view, you should explore
+            every field and choose which one is your "Soul-FieldofInterest". And for the ones who are already at a great
+            level in WebDev, you might find this kind of a Nostalgic post.So here I am, discussing about my "
+            Soul-FieldofInterest " i.e. Web Development ...</p>
+        </div>
+        <div class="col-md-5"><img src="img/Real Images/World wide web_Monochromatic.svg" alt="" srcset=""></div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,320L48,304C96,288,192,256,288,218.7C384,181,480,139,576,144C672,149,768,203,864,197.3C960,192,1056,128,1152,117.3C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <section class="contact" id="contactUs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="lead mb-3 mt-4">Hey 
+          <h3>
+            <%= name %>
+          </h3>
+          </p>
+          <p class="lead mb-3">Branch: <%= branch %>
+          </p>
+          <p class="lead mb-3">Year: <%= year %>
+          </p>
+          <p class="lead mb-3">SID Domain: <%= domain %>
+          </p>
+          <a href="https://internship.spectrumcet.com/assets/images/SID_Brochure_2021.pdf" class="btn btn-dark btn-lg">Download Brochure</a>
+
+        </div>
+
+        <div class="col-md-6"><img src="img/handshake.svg" alt="" srcset=""></div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/Real Images/download-removebg-preview.png" alt=""
+          style="height: 50px; width: 50px;" srcset=""></a>
+      <h2 class="text-align-center">SPECTRUM</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item" style="padding-right: 25px;">
+            <a href="https://www.facebook.com/spCETrum" style="color: black;"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg></a>
+          </li>
+          <li class="nav-item" style="padding-right: 25px;">
+            <a href="https://www.instagram.com/spectrum.cetb/?hl=en" style="color: black;"><svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+              </svg></a>
+          </li>
+          <li class="nav-item" style="padding-right: 25px;">
+            <a href="https://www.linkedin.com/in/spectrum-cet-3b71431b1/" style="color: black;"><svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+              </svg></a>
+          </li>
+          <li class="nav-item" style="padding-right: 25px;">
+            <a href="https://github.com/Spectrum-CETB" style="color: black;"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+              </svg></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/code_iyappa/">Handcrafted by Siddheshwar Panda</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

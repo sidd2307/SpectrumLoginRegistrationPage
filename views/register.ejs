@@ -1,0 +1,116 @@
+<div class="row mt-5">
+    <div class="col-md-6 m-auto">
+      <div class="card card-body">
+        <h1 class="text-center mb-3">
+          <i class="fas fa-user-plus"></i> Register
+        </h1>
+        <%- include ("./partials/messages"); %>
+        <form action="/users/register" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="name"
+              id="name"
+              name="name"
+              class="form-control"
+              placeholder="Enter Name"
+              value="<%= typeof name != 'undefined' ? name : '' %>"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              placeholder="Enter Email"
+              value="<%= typeof email != 'undefined' ? email : '' %>"
+            />
+          </div>
+          <div class="form-group">
+            <label for="mobile">Mobile</label>
+            <input
+              type="number"
+              id="mobile"
+              name="mobile"
+              class="form-control"
+              placeholder="Enter Mobile Number"
+              value="<%= typeof mobile != 'undefined' ? mobile : '' %>"
+            />
+          </div>
+          <div class="form-group">
+            <label for="branch">Branch</label>
+              <select name="branch" class="form-control form-control-default" required>
+                <option value="Architecture">Architecture</option>
+                <option value="Biotechnology">Biotechnology</option>
+                <option value="Civil Engineering">Civil Engineering</option>
+                <option value="Computer Science and Applications (MCA)">Computer Science and Applications (MCA)</option>
+                <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+                <option value="Electrical Engineering">Electrical Engineering</option>
+                <option value="Fashion and Apparel Technology">Fashion and Apparel Technology</option>
+                <option value="Information Technology">Information Technology</option>
+                <option value="Instrumentation and Electronics Engineering">Instrumentation and Electronics Engineering</option>
+                <option value="Mechanical Engineering">Mechanical Engineering</option>
+                <option value="Textile Engineering">Textile Engineering</option>
+                <option value="Planning">Planning</option>
+                <option value="Mathematics and Humanities">Mathematics and Humanities</option>
+                <option value="Physics">Physics</option>
+                <option value="Chemistry">Chemistry</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <label for="year">Year</label>
+              <select name="year" class="form-control form-control-default" required>
+                <option value="1st Year">1st Year</option>
+                <option value="2nd Year">2nd Year</option>
+                <option value="3rd Year">3rd Year</option>
+                <option value="4th Year">4th Year</option>
+                <option value="5th Year">5th Year</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <label for="domain">Domain</label>
+              <select name="domain" class="form-control form-control-default" required>
+                <option value="Web Development">Web Development</option>
+                <option value="DS/ML">DS/ML</option>
+                <option value="App Development">App Development</option>
+                <option value="MATLAB">MATLAB</option>
+                <option value="Illustration">Illustration</option>
+                <option value="UI Design">UI Design</option>
+                <option value="IOT/ES">IOT/ES</option>
+                <option value="PCB Design">PCB Design</option>
+                <option value="PLC">PLC</option>
+                <option value="Python Development">Python Development</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="form-control"
+              placeholder="Create Password"
+              value="<%= typeof password != 'undefined' ? password : '' %>"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password2">Confirm Password</label>
+            <input
+              type="password"
+              id="password2"
+              name="password2"
+              class="form-control"
+              placeholder="Confirm Password"
+              value="<%= typeof password2 != 'undefined' ? password2 : '' %>"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary btn-block mt-3">
+            Register
+          </button>
+        </form>
+        <p class="lead mt-4">Have An Account? <a href="/users/login">Login</a></p>
+      </div>
+    </div>
+  </div>
